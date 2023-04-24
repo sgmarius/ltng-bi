@@ -1,2 +1,3 @@
-<h1>Welcome to ltng-bi</h1>
-<p>This site is a work in progress</p>
+<h1>Hello and welcome to my site!</h1>
+<a href="/blog">About my site</a>
+<a href="/about">About my site</a>
