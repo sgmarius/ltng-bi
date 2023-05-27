@@ -6,15 +6,24 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,800&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="%sveltekit.assets%/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		%sveltekit.head%
 	</head>
 	<body>
 	<div class="pure-g content">
-		<div class="pure-menu pure-menu-horizontal">
-			<a href="/" class="pure-menu-heading pure-menu-link pure-menu-disabled">ltng-bi</a>
+		<div class="pure-menu pure-menu-horizontal ltng-bi-navbar">
+			
 			<ul class="pure-menu-list">
+				<li class="pure-menu-item">
+				<a href="/" class="pure-menu-heading pure-menu-link ltng-bi-logo">
+					ltng <span class="ltng-bi-bolt">⚡</span> bi
+				</a>
+				</li>
 				<li class="pure-menu-item">
 					<a href="/posts" class="pure-menu-link">Posts</a>
 				</li>
