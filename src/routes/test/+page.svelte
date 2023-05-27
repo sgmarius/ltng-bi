@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
     export let posts: any[]
 </script>
 
@@ -9,4 +9,4 @@
       <h3>{post.name}</h3>
     </li>
   {/each}
-</ul>
+</ul> -->
