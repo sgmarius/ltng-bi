@@ -4,24 +4,21 @@
     box-sizing: border-box;
     background-color: #E5F6FF;
     font-family: 'JetBrains Mono', monospace;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .ltng-bi-navbar {
-    font-size: 20px;
-    padding: 2px;
-    height: 24px;
+    font-size: 24px;
+    /* padding: 2px; */
+    height: 30px;
+    font-style: italic;
+    border-radius: 4px;
 }
 
-.ltng-bi-logo {
-    font-size: 24px;
-    color: #76C0F0;
+.ltng-bi-logo, .ltng-bi-logo img {
+    height: 51px;
+    background-color: transparent;
 } 
-
-.ltng-bi-bolt {
-    color: #F0BD75;
-    font-size: 24px;
-    background: transparent;
-}
 
 a {
     text-decoration: none;

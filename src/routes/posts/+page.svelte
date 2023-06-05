@@ -2,7 +2,7 @@
     export let data;
 </script>
 <div>
-    {#each data.posts as post (post.slug)}
+    {#each data.postList as post (post.slug)}
             <section class="post">
                 <header class="post-header">
                     <h5 class="post-title">
@@ -12,7 +12,7 @@
                     <p class="post-meta">
                         Under
                         {#each post.tags as tag}
-                            <a class="post-category" href="#">{tag}</a>
+                            <a class="post-category" href={`/posts?tag=${tag}`}>{tag}</a>
                         {/each}
                         <br>
                         <br>
