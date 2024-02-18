@@ -9,23 +9,24 @@
                         <span class="ltng-bi-bolt">⚡</span>
                         <a href={`/posts/${post.slug}`}>{post.title}</a>
                     </h5>
-                    <p class="post-meta">
-                        Under
-                        {#each post.tags as tag}
-                            <a class="post-category" href={`/posts?tag=${tag}`}>{tag}</a>
-                        {/each}
-                        <br>
-                        <br>
-                        Created on {post.createdon},
-                        by <a href="#">{post.createdby}</a>
-                    </p>
                 </header>
-               
                 <div class="post-description">
                     <p>
-                        {post.shortdesc}
+                        {post.sneak_peek}
                     </p>
                 </div>
+                <div class="post-meta">
+                    Created by {post.user.username} on {post.created_at}
+                </div>
+                <br>
+                {#if post.topic != []}
+                    <p class="post-meta">
+                        Under
+                        {#each post.topic as topic}
+                            <a class="post-category" href={`/posts?topic=${topic.slug}`}>{topic.topic}</a>
+                        {/each}
+                    </p>
+                {/if}
             </section>
     {/each}
 </div>
