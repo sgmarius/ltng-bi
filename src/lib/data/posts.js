@@ -4,7 +4,7 @@ export const posts = [
     title: 'A post title',
     shortdesc: "A post's short description",
     content:'My first post\'s content',
-    tags: ["tag1", "tag2", "tag3"],
+    topics: ["tag1", "tag2", "tag3"],
     createdon: "2023-05-27",
     createdby: "mariussandu"
   },
@@ -13,7 +13,7 @@ export const posts = [
     title: 'My second post',
     shortdesc: "A post's short description",
     content:'My second post\'s content',
-    tags: ["tag1", "tag2"],
+    topics: ["tag1", "tag2"],
     createdon: "2023-05-27",
     createdby: "mariussandu"
   },
